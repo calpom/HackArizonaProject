@@ -20,9 +20,11 @@ class FormViewController: UIViewController {
     static var theTime = ""
     
     
+    @IBOutlet weak var weekdaySelector: WeekdaySelector!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var notesTextField: UITextView!
-
+    
+    
     // * * * * * * * * * * * * * * * * * * * * * *
     
     // the current pill count label and slider

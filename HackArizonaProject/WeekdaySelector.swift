@@ -5,25 +5,31 @@
 //  Created by Cody Joseph Walker on 1/13/18.
 //  Copyright © 2018 CalebGrantCody. All rights reserved.
 //
-
 import UIKit
 
 class WeekdaySelector: UIStackView {
-
-    // MARK:  Initialization
     
+    //MARK: Initializers
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupButtons()
     }
-
+    
     required init(coder: NSCoder) {
         super.init(coder: coder)
         setupButtons()
     }
     
     
-    // MARK: Private Methods
+    //MARK: Action
+    
+    func dayButtonTapped(button: UIButton) {
+        print("Button Pressed!!!")
+    }
+
+    
+    //MARK: Pirvate Methods
     
     private func setupButtons() {
         
@@ -33,11 +39,12 @@ class WeekdaySelector: UIStackView {
         
         // Add constraints
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.heightAnchor.constraint(equalToConstant: 40.0).isActive = true
-        button.widthAnchor.constraint(equalToConstant: 40.0).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 30.0).isActive = true
+        button.widthAnchor.constraint(equalToConstant: 30.0).isActive = true
         
+        // Setup button action
+        button.addTarget(self, action: #selector(WeekdaySelector.dayButtonTapped(button:)), for: .touchUpInside)
         // Add button to stack
         addArrangedSubview(button)
-        
     }
 }
