@@ -101,83 +101,6 @@
                                 <color key="textColor" red="0.41176470588235292" green="0.33333333333333331" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KiF-V2-hdL">
-                                <rect key="frame" x="16" y="460" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Mon">
-                                    <color key="titleColor" red="0.72156862745098038" green="0.57647058823529407" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="monPressed:" destination="k6q-92-x1f" eventType="touchUpInside" id="kQC-GZ-mMf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTT-ph-46T">
-                                <rect key="frame" x="65" y="460" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Tues">
-                                    <color key="titleColor" red="0.72156862745098038" green="0.57647058823529407" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="tuesPressed:" destination="k6q-92-x1f" eventType="touchUpInside" id="69f-Qb-dbE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6e-Fw-VHS">
-                                <rect key="frame" x="16" y="514" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Wed">
-                                    <color key="titleColor" red="0.72156862745098038" green="0.57647058823529407" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="wedPressed:" destination="k6q-92-x1f" eventType="touchUpInside" id="kqu-cW-aDY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tbt-fb-hsa">
-                                <rect key="frame" x="65" y="514" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="Thur">
-                                    <color key="titleColor" red="0.72156862745098038" green="0.57647058823529407" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="thurPressed:" destination="k6q-92-x1f" eventType="touchUpInside" id="O1Q-WD-teS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHa-W5-KmH">
-                                <rect key="frame" x="119" y="514" width="43" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Fri">
-                                    <color key="titleColor" red="0.72156862745098038" green="0.57647058823529407" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="friPressed:" destination="k6q-92-x1f" eventType="touchUpInside" id="l1T-dP-wkI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDw-kc-tzz">
-                                <rect key="frame" x="16" y="564" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Sat">
-                                    <color key="titleColor" red="0.72156862745098038" green="0.57647058823529407" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="satPressed:" destination="k6q-92-x1f" eventType="touchUpInside" id="Dr9-bv-6GK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyT-Cy-X2V">
-                                <rect key="frame" x="65" y="564" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Sun">
-                                    <color key="titleColor" red="0.72156862745098038" green="0.57647058823529407" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="sunPressed:" destination="k6q-92-x1f" eventType="touchUpInside" id="HBr-n1-8q8"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fC-EA-8tn">
                                 <rect key="frame" x="16" y="183" width="221" height="36"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -196,8 +119,15 @@
                                     <action selector="submitButton:" destination="k6q-92-x1f" eventType="touchUpInside" id="5Jg-A4-vSQ"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JCn-5p-YX5">
+                                <rect key="frame" x="16" y="221" width="343" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.80285358428955078" blue="0.81348437070846558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQB-Bm-mSe">
-                                <rect key="frame" x="170" y="460" width="205" height="139"/>
+                                <rect key="frame" x="16" y="514" width="343" height="85"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <date key="date" timeIntervalSinceReferenceDate="537555612.69386697">
                                     <!--2018-01-13 17:00:12 +0000-->
@@ -206,30 +136,16 @@
                                     <action selector="pickerAction:" destination="k6q-92-x1f" eventType="valueChanged" id="DtC-WC-cUy"/>
                                 </connections>
                             </datePicker>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JCn-5p-YX5">
-                                <rect key="frame" x="16" y="221" width="343" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.80285358428955078" blue="0.81348437070846558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.84285110235214233" green="0.67757868766784668" blue="0.68434661626815796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="hcb-os-bUM"/>
                     </view>
                     <connections>
-                        <outlet property="fridayText" destination="BHa-W5-KmH" id="Dzy-Jg-PzL"/>
-                        <outlet property="mondayText" destination="KiF-V2-hdL" id="kLe-xF-3MU"/>
                         <outlet property="nameTextField" destination="Vze-qS-cV8" id="GMe-Oz-cLr"/>
                         <outlet property="notesTextField" destination="JCn-5p-YX5" id="4eA-TT-yiN"/>
                         <outlet property="pillCountLabel" destination="GXp-ro-hay" id="szK-A3-VWx"/>
                         <outlet property="pillCountSlider" destination="E0d-UZ-TZE" id="x3W-jQ-VZ1"/>
-                        <outlet property="saturdayText" destination="RDw-kc-tzz" id="UoD-lT-yCU"/>
-                        <outlet property="sundayText" destination="AyT-Cy-X2V" id="8G1-7j-LuJ"/>
                         <outlet property="thePicker" destination="gQB-Bm-mSe" id="ioU-1H-ZFD"/>
-                        <outlet property="thursdayText" destination="Tbt-fb-hsa" id="HlY-jk-JLF"/>
-                        <outlet property="tuesdayText" destination="BTT-ph-46T" id="OlB-38-Nl3"/>
-                        <outlet property="wednesdayText" destination="k6e-Fw-VHS" id="oRm-Rq-KEm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9z-Nb-cLX" userLabel="First Responder" sceneMemberID="firstResponder"/>
