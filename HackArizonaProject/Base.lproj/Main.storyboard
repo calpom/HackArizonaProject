@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add New Medication Button"/>
                                 <connections>
-                                    <segue destination="k6q-92-x1f" kind="show" id="FyX-7i-OvD"/>
+                                    <segue destination="k6q-92-x1f" kind="show" id="SsG-31-mOC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiu-Lv-pFC">
@@ -141,6 +141,14 @@
                                     <action selector="exitButton:" destination="k6q-92-x1f" eventType="touchUpInside" id="UVF-ft-zF8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvu-9J-y74">
+                                <rect key="frame" x="113" y="363" width="148" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add Item"/>
+                                <connections>
+                                    <segue destination="5XP-cb-Fcy" kind="show" id="GlS-cy-rxn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.88514286741765602" blue="0.87164343627297525" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="hcb-os-bUM"/>
@@ -148,13 +156,41 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9z-Nb-cLX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="840.79999999999995" y="136.28185907046478"/>
+            <point key="canvasLocation" x="1040.8" y="566.26686656671666"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="5lK-WJ-0G6">
+            <objects>
+                <tableViewController id="5XP-cb-Fcy" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Bau-gk-F5I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PerscriptionTableViewCell" rowHeight="60" id="INz-Wy-y9o" customClass="PerscriptionTableViewCell" customModule="HackArizonaProject" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="INz-Wy-y9o" id="DmW-AU-xTE">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5XP-cb-Fcy" id="a9Z-Tw-Lhh"/>
+                            <outlet property="delegate" destination="5XP-cb-Fcy" id="UjL-jq-a4z"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rHB-BL-b9u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2207" y="157"/>
         </scene>
     </scenes>
     <resources>
         <image name="logo" width="975" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FyX-7i-OvD"/>
+        <segue reference="SsG-31-mOC"/>
     </inferredMetricsTieBreakers>
 </document>
