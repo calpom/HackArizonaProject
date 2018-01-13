@@ -13,6 +13,7 @@
 		694FFEFB2009821A00428C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694FFEFA2009821A00428C28 /* Assets.xcassets */; };
 		694FFEFE2009821A00428C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694FFEFC2009821A00428C28 /* LaunchScreen.storyboard */; };
 		694FFF082009D23000428C28 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694FFF072009D23000428C28 /* FormViewController.swift */; };
+		DC98B5912009DAEC00220624 /* PerscriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98B5902009DAEC00220624 /* PerscriptionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		694FFEFD2009821A00428C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		694FFEFF2009821A00428C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		694FFF072009D23000428C28 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		DC98B5902009DAEC00220624 /* PerscriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerscriptionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		694FFEE72009821A00428C28 = {
 			isa = PBXGroup;
 			children = (
+				DC98B5902009DAEC00220624 /* PerscriptionTableViewCell.swift */,
 				694FFEF22009821A00428C28 /* HackArizonaProject */,
 				694FFEF12009821A00428C28 /* Products */,
 			);
@@ -142,6 +145,7 @@
 				694FFEF62009821A00428C28 /* ViewController.swift in Sources */,
 				694FFF082009D23000428C28 /* FormViewController.swift in Sources */,
 				694FFEF42009821A00428C28 /* AppDelegate.swift in Sources */,
+				DC98B5912009DAEC00220624 /* PerscriptionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
