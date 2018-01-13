@@ -10,6 +10,15 @@ import UIKit
 
 class FormViewController: UIViewController {
     
+    // the name and the notes
+    var theName = ""
+    var theNotes = ""
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var notesTextField: UITextView!
+
+    // * * * * * * * * * * * * * * * * * * * * * *
+    
     // the current pill count label and slider
     @IBOutlet weak var pillCountLabel: UILabel!
     @IBOutlet weak var pillCountSlider: UISlider!
@@ -31,6 +40,11 @@ class FormViewController: UIViewController {
     var friCount = 0
     var satCount = 0
     var sunCount = 0
+    
+    // the enter button
+    
+    
+    
     
     
     // days of the week action
