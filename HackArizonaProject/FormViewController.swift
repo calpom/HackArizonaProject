@@ -10,9 +10,13 @@ import UIKit
 
 class FormViewController: UIViewController {
     
-    // the name and the notes
-    var theName = ""
-    var theNotes = ""
+    
+    // the static variables
+    static var theName = ""
+    static var theNotes = ""
+    static var arrayOfDays = [String]()
+    static var numOfPills = 0
+    
     
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var notesTextField: UITextView!
@@ -41,7 +45,48 @@ class FormViewController: UIViewController {
     var satCount = 0
     var sunCount = 0
     
-    // the enter button
+    // the submit button
+    @IBAction func submitButton(_ sender: UIButton) {
+        
+        // if a day of the week is selected,
+        // add it to the static array of days
+        if (monCount % 2 == 0) {
+            FormViewController.arrayOfDays.append("Monday")
+        }
+        if (tuesCount % 2 == 0) {
+            FormViewController.arrayOfDays.append("Tuesday")
+        }
+        if (wedCount % 2 == 0) {
+            FormViewController.arrayOfDays.append("Wednesday")
+        }
+        if (thurCount % 2 == 0) {
+            FormViewController.arrayOfDays.append("Thursday")
+        }
+        if (friCount % 2 == 0) {
+            FormViewController.arrayOfDays.append("Friday")
+        }
+        if (satCount % 2 == 0) {
+            FormViewController.arrayOfDays.append("Saturday")
+        }
+        if (sunCount % 2 == 0) {
+            FormViewController.arrayOfDays.append("Sunday")
+        }
+        
+        // change the name and notes to the label
+        FormViewController.theName = nameTextField.text!
+        FormViewController.theNotes = notesTextField.text!
+        
+        FormViewController.numOfPills = Int(pillCountLabel.text!)!
+        
+        // DEBUG
+        print("the name is: ")
+        print(FormViewController.theName)
+        print("the notes is: ")
+        print(FormViewController.theNotes)
+        print("numOfPills is: ")
+        print(FormViewController.numOfPills)
+        
+    }
     
     
     

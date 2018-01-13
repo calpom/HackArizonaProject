@@ -199,6 +199,7 @@
                                     <color key="titleColor" red="0.41747421026229858" green="0.33684378862380981" blue="0.34024816751480103" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="submitButton:" destination="k6q-92-x1f" eventType="touchUpInside" id="5Jg-A4-vSQ"/>
                                     <segue destination="5XP-cb-Fcy" kind="show" animates="NO" id="GlS-cy-rxn"/>
                                 </connections>
                             </button>
