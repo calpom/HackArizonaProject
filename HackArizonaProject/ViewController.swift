@@ -18,7 +18,8 @@ class ViewController: UIViewController {
         
         if (ViewController.viewCount >= 1) {
             // switch screen to screen w table view of pills
-            
+            let tableOfMedCells = ViewController(nibName: "NibName", bundle: nil);
+            self.present(tableOfMedCells, animated: true, completion: nil);
             
         }
         
