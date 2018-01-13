@@ -30,8 +30,7 @@ class ViewController: UIViewController {
             print("viewCount is greater than or equal to 1")
             
             // switch screen to screen w table view of pills
-            // let tableOfMedCells = ViewController(nibName: "NibName", bundle: nil);
-            // self.present(tableOfMedCells, animated: true, completion: nil);
+            
             
             
             
@@ -55,5 +54,26 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+
+
+
+//MARK: - UIApplication Extension
+extension UIApplication {
+    class func topViewController(viewController: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
+        if let nav = viewController as? UINavigationController {
+            return topViewController(viewController: nav.visibleViewController)
+        }
+        if let tab = viewController as? UITabBarController {
+            if let selected = tab.selectedViewController {
+                return topViewController(viewController: selected)
+            }
+        }
+        if let presented = viewController?.presentedViewController {
+            return topViewController(viewController: presented)
+        }
+        return viewController
+    }
 }
 
