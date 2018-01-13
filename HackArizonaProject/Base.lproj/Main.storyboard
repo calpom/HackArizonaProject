@@ -22,10 +22,10 @@
                                 <rect key="frame" x="16" y="0.0" width="280" height="149"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLD-z5-B57">
-                                <rect key="frame" x="17" y="224" width="340" height="206"/>
+                            <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLD-z5-B57">
+                                <rect key="frame" x="84" y="230" width="206" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="plusButton2"/>
+                                <state key="normal" image="plusButton3"/>
                                 <connections>
                                     <segue destination="k6q-92-x1f" kind="show" animates="NO" id="SsG-31-mOC"/>
                                 </connections>
@@ -153,6 +153,6 @@
     </scenes>
     <resources>
         <image name="logo" width="975" height="400"/>
-        <image name="plusButton2" width="800" height="480"/>
+        <image name="plusButton3" width="480" height="480"/>
     </resources>
 </document>
