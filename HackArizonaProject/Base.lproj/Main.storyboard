@@ -235,13 +235,9 @@
         <!--tableOfMedCells-->
         <scene sceneID="5lK-WJ-0G6">
             <objects>
-<<<<<<< HEAD
                 <tableViewController id="5XP-cb-Fcy" customClass="TableOfMedCells" customModule="HackArizonaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="180" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Bau-gk-F5I">
-=======
-                <tableViewController title="tableOfMedCells" id="5XP-cb-Fcy" customClass="TableOfMedCells" customModule="HackArizonaProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Bau-gk-F5I">
->>>>>>> f0876b6d3fe28d1e9217e83bef562cc4ea5414f3
+
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
