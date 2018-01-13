@@ -11,6 +11,10 @@ import UIKit
 class FormViewController: UIViewController {
     
     
+    let datePicker = UIDatePicker()
+    
+    
+    
     // the static variables
     static var theName = ""
     static var theNotes = ""
@@ -87,7 +91,8 @@ class FormViewController: UIViewController {
         print("numOfPills is: ")
         print(FormViewController.numOfPills)
         
-        // * * * CREATE cell object with all 5 info. and add it to table view controller * * *
+        // * * * CREATE cell object with all 5 info. and add it to table view controller
+        // * * * and array of cell objects * * *
         
         
         
@@ -208,15 +213,6 @@ class FormViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    // days of the week actions
-    
-    
-    
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)

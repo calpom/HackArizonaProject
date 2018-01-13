@@ -10,17 +10,33 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    static var viewCount = 0;
-
+    static var viewCount: Int {
+        get {
+            return UserDefaults.standard.integer(forKey: "viewCount")
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: "viewCount")
+        }
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
         
         if (ViewController.viewCount >= 1) {
+            // DEBUG * * * *
+            print("viewCount is greater than or equal to 1")
+            
             // switch screen to screen w table view of pills
             let tableOfMedCells = ViewController(nibName: "NibName", bundle: nil);
             self.present(tableOfMedCells, animated: true, completion: nil);
             
+            
+            
+        } else {
+            print("viewCount is less than 1")
         }
         
         
