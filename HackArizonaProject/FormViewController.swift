@@ -11,15 +11,13 @@ import UIKit
 class FormViewController: UIViewController {
     
     
-    let datePicker = UIDatePicker()
     
-    
-    
-    // the static variables
+    // the static variables ! ! ! 
     static var theName = ""
     static var theNotes = ""
     static var arrayOfDays = [String]()
     static var numOfPills = 0
+    static var theTime = ""
     
     
     @IBOutlet weak var nameTextField: UITextField!
@@ -49,30 +47,45 @@ class FormViewController: UIViewController {
     var satCount = 0
     var sunCount = 0
     
+    @IBOutlet weak var thePicker: UIDatePicker!
+    
+    
+    // action for the picker
+    @IBAction func pickerAction(_ sender: UIDatePicker) {
+        // formatter
+        let formatter = DateFormatter()
+        formatter.dateFormat = "HH:mm"
+        // change time to the time
+        FormViewController.theTime = formatter.string(from: thePicker.date)
+        
+    }
+    
+    
+    
     // the submit button
     @IBAction func submitButton(_ sender: UIButton) {
         
         // if a day of the week is selected,
         // add it to the static array of days
-        if (monCount % 2 == 0) {
+        if (monCount % 2 == 1) {
             FormViewController.arrayOfDays.append("Monday")
         }
-        if (tuesCount % 2 == 0) {
+        if (tuesCount % 2 == 1) {
             FormViewController.arrayOfDays.append("Tuesday")
         }
-        if (wedCount % 2 == 0) {
+        if (wedCount % 2 == 1) {
             FormViewController.arrayOfDays.append("Wednesday")
         }
-        if (thurCount % 2 == 0) {
+        if (thurCount % 2 == 1) {
             FormViewController.arrayOfDays.append("Thursday")
         }
-        if (friCount % 2 == 0) {
+        if (friCount % 2 == 1) {
             FormViewController.arrayOfDays.append("Friday")
         }
-        if (satCount % 2 == 0) {
+        if (satCount % 2 == 1) {
             FormViewController.arrayOfDays.append("Saturday")
         }
-        if (sunCount % 2 == 0) {
+        if (sunCount % 2 == 1) {
             FormViewController.arrayOfDays.append("Sunday")
         }
         
@@ -81,7 +94,6 @@ class FormViewController: UIViewController {
         FormViewController.theNotes = notesTextField.text!
         FormViewController.numOfPills = Int(pillCountLabel.text!)!
         
-        // change time to the time
         
         // DEBUG
         print("the name is: ")
@@ -90,6 +102,10 @@ class FormViewController: UIViewController {
         print(FormViewController.theNotes)
         print("numOfPills is: ")
         print(FormViewController.numOfPills)
+        print("theTime is: ")
+        print(FormViewController.theTime)
+        print("the days are: ")
+        print(FormViewController.arrayOfDays)
         
         // * * * CREATE cell object with all 5 info. and add it to table view controller
         // * * * and array of cell objects * * *
