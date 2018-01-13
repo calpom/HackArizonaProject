@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         if (ViewController.viewCount >= 1) {
-            // switch screen to screen w
+            // switch screen to screen w table view of pills
             
         }
         
