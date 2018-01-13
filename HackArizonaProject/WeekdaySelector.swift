@@ -24,7 +24,7 @@ class WeekdaySelector: UIStackView {
     
     //MARK: Action
     
-    func dayButtonTapped(button: UIButton) {
+    @objc func dayButtonTapped(button: UIButton) {
         print("Button Pressed!!!")
     }
 
@@ -44,6 +44,7 @@ class WeekdaySelector: UIStackView {
         
         // Setup button action
         button.addTarget(self, action: #selector(WeekdaySelector.dayButtonTapped(button:)), for: .touchUpInside)
+        
         // Add button to stack
         addArrangedSubview(button)
     }
