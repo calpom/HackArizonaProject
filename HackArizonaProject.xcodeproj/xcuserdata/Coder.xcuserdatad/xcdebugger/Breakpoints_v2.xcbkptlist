@@ -10,13 +10,120 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HackArizonaProject/TableOfMedCells.swift"
-            timestampString = "537561587.555976"
+            timestampString = "537567448.275631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "11"
             endingLineNumber = "11"
             landmarkName = "TableOfMedCells"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackArizonaProject.TableOfMedCells.__deallocating_deinit"
+                  moduleName = "HackArizonaProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Coder/hack18/HackArizonaProject/HackArizonaProject/TableOfMedCells.swift"
+                  timestampString = "537567448.350704"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackArizonaProject.TableOfMedCells.__allocating_init(style: __C.UITableViewStyle) -&gt; HackArizonaProject.TableOfMedCells"
+                  moduleName = "HackArizonaProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Coder/hack18/HackArizonaProject/HackArizonaProject/TableOfMedCells.swift"
+                  timestampString = "537567448.352733"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackArizonaProject.TableOfMedCells.init(style: __C.UITableViewStyle) -&gt; HackArizonaProject.TableOfMedCells"
+                  moduleName = "HackArizonaProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Coder/hack18/HackArizonaProject/HackArizonaProject/TableOfMedCells.swift"
+                  timestampString = "537567448.354755"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackArizonaProject.TableOfMedCells.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; HackArizonaProject.TableOfMedCells"
+                  moduleName = "HackArizonaProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Coder/hack18/HackArizonaProject/HackArizonaProject/TableOfMedCells.swift"
+                  timestampString = "537567448.356661"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackArizonaProject.TableOfMedCells.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; HackArizonaProject.TableOfMedCells"
+                  moduleName = "HackArizonaProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Coder/hack18/HackArizonaProject/HackArizonaProject/TableOfMedCells.swift"
+                  timestampString = "537567448.358385"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "283">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackArizonaProject.TableOfMedCells.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;HackArizonaProject.TableOfMedCells&gt;"
+                  moduleName = "HackArizonaProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Coder/hack18/HackArizonaProject/HackArizonaProject/TableOfMedCells.swift"
+                  timestampString = "537567448.3601381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackArizonaProject.TableOfMedCells.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;HackArizonaProject.TableOfMedCells&gt;"
+                  moduleName = "HackArizonaProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Coder/hack18/HackArizonaProject/HackArizonaProject/TableOfMedCells.swift"
+                  timestampString = "537567448.362992"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

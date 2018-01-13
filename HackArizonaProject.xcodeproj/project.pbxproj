@@ -15,6 +15,7 @@
 		694FFF082009D23000428C28 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694FFF072009D23000428C28 /* FormViewController.swift */; };
 		69CA0C052009EE4100337EBA /* TableOfMedCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA0C042009EE4100337EBA /* TableOfMedCells.swift */; };
 		69CA0C07200A6A9800337EBA /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA0C06200A6A9800337EBA /* notifications.swift */; };
+		DC4EDE4F200A9BBE006B5580 /* WeekdaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EDE4E200A9BBE006B5580 /* WeekdaySelector.swift */; };
 		DC98B5912009DAEC00220624 /* PerscriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98B5902009DAEC00220624 /* PerscriptionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		694FFF072009D23000428C28 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		69CA0C042009EE4100337EBA /* TableOfMedCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableOfMedCells.swift; sourceTree = "<group>"; };
 		69CA0C06200A6A9800337EBA /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
+		DC4EDE4E200A9BBE006B5580 /* WeekdaySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaySelector.swift; sourceTree = "<group>"; };
 		DC98B5902009DAEC00220624 /* PerscriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerscriptionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				694FFEF32009821A00428C28 /* AppDelegate.swift */,
 				694FFEF52009821A00428C28 /* ViewController.swift */,
 				694FFEF72009821A00428C28 /* Main.storyboard */,
+				DC4EDE4E200A9BBE006B5580 /* WeekdaySelector.swift */,
 				69CA0C06200A6A9800337EBA /* notifications.swift */,
 				69CA0C042009EE4100337EBA /* TableOfMedCells.swift */,
 				694FFF072009D23000428C28 /* FormViewController.swift */,
@@ -150,6 +153,7 @@
 			files = (
 				694FFEF62009821A00428C28 /* ViewController.swift in Sources */,
 				69CA0C052009EE4100337EBA /* TableOfMedCells.swift in Sources */,
+				DC4EDE4F200A9BBE006B5580 /* WeekdaySelector.swift in Sources */,
 				694FFF082009D23000428C28 /* FormViewController.swift in Sources */,
 				694FFEF42009821A00428C28 /* AppDelegate.swift in Sources */,
 				69CA0C07200A6A9800337EBA /* notifications.swift in Sources */,
