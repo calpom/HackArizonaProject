@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         if (ViewController.viewCount >= 1) {
             // switch screen to screen w table view of pills
             
+            
         }
         
         
