@@ -30,8 +30,8 @@ class ViewController: UIViewController {
             print("viewCount is greater than or equal to 1")
             
             // switch screen to screen w table view of pills
-            let tableOfMedCells = ViewController(nibName: "NibName", bundle: nil);
-            self.present(tableOfMedCells, animated: true, completion: nil);
+            // let tableOfMedCells = ViewController(nibName: "NibName", bundle: nil);
+            // self.present(tableOfMedCells, animated: true, completion: nil);
             
             
             
