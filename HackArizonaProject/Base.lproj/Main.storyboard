@@ -39,41 +39,6 @@
             </objects>
             <point key="canvasLocation" x="7.2000000000000002" y="136.28185907046478"/>
         </scene>
-<<<<<<< HEAD
-        <!--View Controller-->
-        <scene sceneID="pcg-0a-LWZ">
-            <objects>
-                <viewController id="Lg0-ff-1Xp" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="k7f-ra-IzU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Page w/ current meds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCn-fo-vNW">
-                                <rect key="frame" x="16" y="52" width="208" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdV-9I-bWa">
-                                <rect key="frame" x="16" y="175" width="161" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button to add med"/>
-                                <connections>
-                                    <segue destination="k6q-92-x1f" kind="show" id="gge-aw-RdJ"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="nlx-3O-1uL"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eDq-F7-yd2" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5.5999999999999996" y="832.53373313343332"/>
-        </scene>
-=======
->>>>>>> 869590b27bf252c2302d89e556cabb894448bef0
         <!--Form View Controller-->
         <scene sceneID="g5I-Sa-XZq">
             <objects>
@@ -129,11 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9z-Nb-cLX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
-            <point key="canvasLocation" x="1079" y="248"/>
-=======
             <point key="canvasLocation" x="1029.5999999999999" y="135.38230884557723"/>
->>>>>>> 869590b27bf252c2302d89e556cabb894448bef0
         </scene>
         <!--Table Of Med Cells-->
         <scene sceneID="5lK-WJ-0G6">
