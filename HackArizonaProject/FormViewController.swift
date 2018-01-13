@@ -12,7 +12,7 @@ class FormViewController: UIViewController {
     
     
     
-    // the static variables ! ! ! 
+    // the static variables ! ! !
     static var theName = ""
     static var theNotes = ""
     static var arrayOfDays = [String]()
