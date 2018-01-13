@@ -194,7 +194,6 @@
                                 </state>
                                 <connections>
                                     <action selector="submitButton:" destination="k6q-92-x1f" eventType="touchUpInside" id="5Jg-A4-vSQ"/>
-                                    <segue destination="5XP-cb-Fcy" kind="show" animates="NO" id="GlS-cy-rxn"/>
                                 </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQB-Bm-mSe">
