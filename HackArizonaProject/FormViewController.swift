@@ -75,8 +75,9 @@ class FormViewController: UIViewController {
         // change the name and notes to the label
         FormViewController.theName = nameTextField.text!
         FormViewController.theNotes = notesTextField.text!
-        
         FormViewController.numOfPills = Int(pillCountLabel.text!)!
+        
+        // change time to the time
         
         // DEBUG
         print("the name is: ")
@@ -85,6 +86,22 @@ class FormViewController: UIViewController {
         print(FormViewController.theNotes)
         print("numOfPills is: ")
         print(FormViewController.numOfPills)
+        
+        // * * * CREATE cell object with all 5 info. and add it to table view controller * * *
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
         
     }
     
