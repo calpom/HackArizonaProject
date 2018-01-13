@@ -9,7 +9,16 @@
 import UIKit
 
 class FormViewController: UIViewController {
-
+    
+    // the current pill count label and slider
+    @IBOutlet weak var pillCountLabel: UILabel!
+    @IBOutlet weak var pillCountSlider: UISlider!
+    
+    // the slider as an action
+    @IBAction func sliderAction(_ sender: UISlider) {
+        pillCountLabel.text = String(Int(sender.value))
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +28,10 @@ class FormViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
     
     
