@@ -14,6 +14,11 @@ class notifications: UIViewController {
     static var theNotifications = [UNMutableNotificationContent]()
     var dayCode = ["Sunday":1, "Monday":2, "Tuesday":3, "Wednesday":4, "Thursday":5, "Friday":6, "Saturday":7]
     
+    @IBAction func makeCall(_ sender: Any) {
+        guard let number = URL(string: "tel://" + "19282779224") else { return }
+        UIApplication.shared.open(number)
+        
+    }
     @IBAction func buttonPress(_ sender: Any) {
         let content = UNMutableNotificationContent()
         content.title = "You chose Spiderman!"
