@@ -9,6 +9,12 @@ import UIKit
 
 class WeekdaySelector: UIStackView {
     
+    //MARK: Properties
+    
+    private var dayButtons = [UIButton]()
+    
+    let dayArray = [0, 0, 0, 0, 0, 0, 0]
+    
     //MARK: Initializers
 
     override init(frame: CGRect) {
@@ -33,19 +39,24 @@ class WeekdaySelector: UIStackView {
     
     private func setupButtons() {
         
-        // Create button
-        let button = UIButton()
-        button.backgroundColor = UIColor.red
-        
-        // Add constraints
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.heightAnchor.constraint(equalToConstant: 30.0).isActive = true
-        button.widthAnchor.constraint(equalToConstant: 30.0).isActive = true
-        
-        // Setup button action
-        button.addTarget(self, action: #selector(WeekdaySelector.dayButtonTapped(button:)), for: .touchUpInside)
-        
-        // Add button to stack
-        addArrangedSubview(button)
+        for _ in 0..<7 {
+            // Create button
+            let button = UIButton()
+            button.backgroundColor = UIColor.red
+            
+            // Add constraints
+            button.translatesAutoresizingMaskIntoConstraints = false
+            button.heightAnchor.constraint(equalToConstant: 43.0).isActive = true
+            button.widthAnchor.constraint(equalToConstant: 43.0).isActive = true
+            
+            // Setup button action
+            button.addTarget(self, action: #selector(WeekdaySelector.dayButtonTapped(button:)), for: .touchUpInside)
+            
+            // Add button to stack
+            addArrangedSubview(button)
+            
+            // Add new button to weekday button array
+            dayButtons.append(button)
+        }
     }
 }
