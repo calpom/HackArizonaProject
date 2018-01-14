@@ -13,7 +13,7 @@ import UIKit
     
     private var dayButtons = [UIButton]()
     
-    let dayArray = [0, 0, 0, 0, 0, 0, 0]
+    var dayArray = [0, 0, 0, 0, 0, 0, 0]
 
     
     @IBInspectable var dayButtonSize: CGSize = CGSize(width: 43.0, height: 43.0) {
@@ -48,7 +48,13 @@ import UIKit
         if button.isSelected {
             button.isSelected = false
             // [remove item from array of days here]
-            
+            var counter = 0
+            for b in dayButtons {
+                if b == button {
+                    dayArray[counter] = 0
+                }
+                counter += 1
+            }
             
             
             
@@ -57,13 +63,26 @@ import UIKit
         } else {
             button.isSelected = true
             // [add item to array of days here]
-            
+            var counter = 0
+            for b in dayButtons {
+                if b == button {
+                    dayArray[counter] = 1
+                }
+                counter += 1
+            }
             
             
             
             // * * * * * * * * * * * * * * * *
             
         }
+        
+        // DEBUG * * * *
+        print("dayArray is: ")
+        print(dayArray)
+        
+        
+        
     }
 
     

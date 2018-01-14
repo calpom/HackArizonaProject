@@ -14,6 +14,7 @@
 		694FFEFE2009821A00428C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694FFEFC2009821A00428C28 /* LaunchScreen.storyboard */; };
 		694FFF082009D23000428C28 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694FFF072009D23000428C28 /* FormViewController.swift */; };
 		69CA0C07200A6A9800337EBA /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA0C06200A6A9800337EBA /* notifications.swift */; };
+
 		DC7A0716200AC50C00E941F4 /* WeekdaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7A0715200AC50C00E941F4 /* WeekdaySelector.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		69CA0C06200A6A9800337EBA /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
 		DC35DAC9200B27900070151D /* Prescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prescription.swift; sourceTree = "<group>"; };
 		DC35DACD200B4DD70070151D /* PrescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		DC35DAD3200B60420070151D /* PrescriptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionTableViewController.swift; sourceTree = "<group>"; };
 		DC7A0715200AC50C00E941F4 /* WeekdaySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaySelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				694FFF072009D23000428C28 /* FormViewController.swift */,
 				DC35DAC9200B27900070151D /* Prescription.swift */,
 				DC35DACD200B4DD70070151D /* PrescriptionTableViewCell.swift */,
+				DC35DAD3200B60420070151D /* PrescriptionTableViewController.swift */,
 				694FFEFA2009821A00428C28 /* Assets.xcassets */,
 				694FFEFC2009821A00428C28 /* LaunchScreen.storyboard */,
 				694FFEFF2009821A00428C28 /* Info.plist */,
