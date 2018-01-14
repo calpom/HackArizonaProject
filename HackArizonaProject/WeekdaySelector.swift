@@ -14,6 +14,7 @@ import UIKit
     private var dayButtons = [UIButton]()
     
     let dayArray = [0, 0, 0, 0, 0, 0, 0]
+
     
     @IBInspectable var dayButtonSize: CGSize = CGSize(width: 43.0, height: 43.0) {
         didSet {
@@ -42,7 +43,14 @@ import UIKit
     //MARK: Action
     
     @objc func dayButtonTapped(button: UIButton) {
-        print("Button Pressed!!!")
+        
+        // if button is selected, button is not selected. else, it is selected
+        if button.isSelected {
+            button.isSelected = false
+        } else {
+            button.isSelected = true
+            
+        }
     }
 
     
@@ -89,22 +97,22 @@ import UIKit
                 button.setImage(darkMondayButton, for: .selected)
             case 1:
                 button.setImage(tuesdayButton, for: .normal)
-                button.setImage(darkMondayButton, for: .selected)
+                button.setImage(darkTuesdayButton, for: .selected)
             case 2:
                 button.setImage(wednesdayButton, for: .normal)
-                button.setImage(darkMondayButton, for: .selected)
+                button.setImage(darkWednesdayButton, for: .selected)
             case 3:
                 button.setImage(thursdayButton, for: .normal)
-                button.setImage(darkMondayButton, for: .selected)
+                button.setImage(darkThursdayButton, for: .selected)
             case 4:
                 button.setImage(fridayButton, for: .normal)
-                button.setImage(darkMondayButton, for: .selected)
+                button.setImage(darkFridayButton, for: .selected)
             case 5:
                 button.setImage(saturdayButton, for: .normal)
-                button.setImage(darkMondayButton, for: .selected)
+                button.setImage(darkSaturdayButton, for: .selected)
             case 6:
                 button.setImage(sundayButton, for: .normal)
-                button.setImage(darkMondayButton, for: .selected)
+                button.setImage(darkSundayButton, for: .selected)
             default:
                 break
                 
@@ -125,4 +133,6 @@ import UIKit
             dayButtons.append(button)
         }
     }
+    
+
 }
