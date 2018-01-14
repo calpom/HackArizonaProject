@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: {didAllow, error in})
+        UNUserNotificationCenter.current().requestAuthorization(options:        [.alert, .badge, .sound], completionHandler: {didAllow, error in})
 
         if (ViewController.viewCount >= 1) {
             // DEBUG * * * *

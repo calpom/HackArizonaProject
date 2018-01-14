@@ -26,8 +26,8 @@ class notifications: UIViewController {
         content.body = "Let die the woman you love or suffer the little children!"
         content.badge = 1
         var date = DateComponents()
-        date.hour = 10
-        date.minute = 7
+        date.hour = 20
+        date.minute = 27
         date.weekday = 7
         let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: false)
         let request = UNNotificationRequest(identifier: "Times up!", content: content, trigger: trigger)
@@ -38,7 +38,7 @@ class notifications: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: {didAllow, error in})
+    UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: {didAllow, error in})
         // Do any additional setup after loading the view.
     }
     
