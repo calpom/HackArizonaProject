@@ -17,8 +17,11 @@ class notifications: UIViewController {
     @IBAction func makeCall(_ sender: Any) {
         guard let number = URL(string: "tel://" + "19282779224") else { return }
         UIApplication.shared.open(number)
-        
     }
+    @IBAction func removeNotification(_ sender:Any){
+        // this will remove notificatins 
+    }
+    
     @IBAction func buttonPress(_ sender: Any) {
         let content = UNMutableNotificationContent()
         content.title = "You chose Spiderman!"
