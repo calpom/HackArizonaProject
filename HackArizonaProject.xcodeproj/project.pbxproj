@@ -15,8 +15,8 @@
 		694FFF082009D23000428C28 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694FFF072009D23000428C28 /* FormViewController.swift */; };
 		69CA0C052009EE4100337EBA /* TableOfMedCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA0C042009EE4100337EBA /* TableOfMedCells.swift */; };
 		69CA0C07200A6A9800337EBA /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA0C06200A6A9800337EBA /* notifications.swift */; };
-		DC35DACA200B27900070151D /* Prescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35DAC9200B27900070151D /* Prescription.swift */; };
-		DC35DACE200B4DD70070151D /* PrescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35DACD200B4DD70070151D /* PrescriptionTableViewCell.swift */; };
+
+		B300F73B200B297A002A04C4 /* MakeCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300F73A200B297A002A04C4 /* MakeCall.swift */; };
 		DC7A0716200AC50C00E941F4 /* WeekdaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7A0715200AC50C00E941F4 /* WeekdaySelector.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +70,7 @@
 				694FFEF52009821A00428C28 /* ViewController.swift */,
 				694FFEF72009821A00428C28 /* Main.storyboard */,
 				69CA0C06200A6A9800337EBA /* notifications.swift */,
+				B300F73A200B297A002A04C4 /* MakeCall.swift */,
 				69CA0C042009EE4100337EBA /* TableOfMedCells.swift */,
 				DC7A0715200AC50C00E941F4 /* WeekdaySelector.swift */,
 				694FFF072009D23000428C28 /* FormViewController.swift */,
