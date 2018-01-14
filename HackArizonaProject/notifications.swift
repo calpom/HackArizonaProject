@@ -38,7 +38,7 @@ class notifications: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: {didAllow, error in})
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: {didAllow, error in})
         // Do any additional setup after loading the view.
     }
     
