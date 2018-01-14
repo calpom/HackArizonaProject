@@ -7,13 +7,24 @@
 //
 import UIKit
 
-class WeekdaySelector: UIStackView {
+@IBDesignable class WeekdaySelector: UIStackView {
     
     //MARK: Properties
     
     private var dayButtons = [UIButton]()
     
     let dayArray = [0, 0, 0, 0, 0, 0, 0]
+    
+    @IBInspectable var dayButtonSize: CGSize = CGSize(width: 43.0, height: 43.0) {
+        didSet {
+            setupButtons()
+        }
+    }
+    @IBInspectable var dayButtonCount: Int = 7 {
+        didSet {
+            setupButtons()
+        }
+    }
     
     //MARK: Initializers
 
@@ -39,15 +50,22 @@ class WeekdaySelector: UIStackView {
     
     private func setupButtons() {
         
-        for _ in 0..<7 {
+        // Clear any existing buttons
+        for button in dayButtons {
+            removeArrangedSubview(button)
+            button.removeFromSuperview()
+        }
+        dayButtons.removeAll()
+        
+        for _ in 0..<dayButtonCount {
             // Create button
             let button = UIButton()
             button.backgroundColor = UIColor.red
             
             // Add constraints
             button.translatesAutoresizingMaskIntoConstraints = false
-            button.heightAnchor.constraint(equalToConstant: 43.0).isActive = true
-            button.widthAnchor.constraint(equalToConstant: 43.0).isActive = true
+            button.heightAnchor.constraint(equalToConstant: dayButtonSize.height).isActive = true
+            button.widthAnchor.constraint(equalToConstant: dayButtonSize.width).isActive = true
             
             // Setup button action
             button.addTarget(self, action: #selector(WeekdaySelector.dayButtonTapped(button:)), for: .touchUpInside)

@@ -155,11 +155,11 @@
                                 </connections>
                             </datePicker>
                             <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="G7r-8u-f9z">
-                                <rect key="frame" x="16" y="464" width="348" height="50"/>
+                                <rect key="frame" x="16" y="464" width="349" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" ambiguous="YES" distribution="equalSpacing" alignment="bottom" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Ts3-mO-otT" customClass="WeekdaySelector" customModule="HackArizonaProject" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="348" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="349" height="50"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
