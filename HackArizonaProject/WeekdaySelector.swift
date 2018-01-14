@@ -47,8 +47,21 @@ import UIKit
         // if button is selected, button is unselected. else, it is selected
         if button.isSelected {
             button.isSelected = false
+            // [remove item from array of days here]
+            
+            
+            
+            
+            // * * * * * * * * * * * * * * * * * * *
+            
         } else {
             button.isSelected = true
+            // [add item to array of days here]
+            
+            
+            
+            
+            // * * * * * * * * * * * * * * * *
             
         }
     }

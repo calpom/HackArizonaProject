@@ -16,7 +16,6 @@
 		69CA0C052009EE4100337EBA /* TableOfMedCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA0C042009EE4100337EBA /* TableOfMedCells.swift */; };
 		69CA0C07200A6A9800337EBA /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA0C06200A6A9800337EBA /* notifications.swift */; };
 		DC7A0716200AC50C00E941F4 /* WeekdaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7A0715200AC50C00E941F4 /* WeekdaySelector.swift */; };
-		DC98B5912009DAEC00220624 /* PerscriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98B5902009DAEC00220624 /* PerscriptionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		69CA0C042009EE4100337EBA /* TableOfMedCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableOfMedCells.swift; sourceTree = "<group>"; };
 		69CA0C06200A6A9800337EBA /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
 		DC7A0715200AC50C00E941F4 /* WeekdaySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaySelector.swift; sourceTree = "<group>"; };
-		DC98B5902009DAEC00220624 /* PerscriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerscriptionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 		694FFEF22009821A00428C28 /* HackArizonaProject */ = {
 			isa = PBXGroup;
 			children = (
-				DC98B5902009DAEC00220624 /* PerscriptionTableViewCell.swift */,
 				694FFEF32009821A00428C28 /* AppDelegate.swift */,
 				694FFEF52009821A00428C28 /* ViewController.swift */,
 				694FFEF72009821A00428C28 /* Main.storyboard */,
@@ -157,7 +154,6 @@
 				694FFF082009D23000428C28 /* FormViewController.swift in Sources */,
 				694FFEF42009821A00428C28 /* AppDelegate.swift in Sources */,
 				69CA0C07200A6A9800337EBA /* notifications.swift in Sources */,
-				DC98B5912009DAEC00220624 /* PerscriptionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,7 @@ class FormViewController: UIViewController {
     static var theNotes = ""
     static var arrayOfDays = [String]()
     static var numOfPills = 0
-    static var theTime = ""
+    static var theTime = "10:00"
     
     
     @IBOutlet weak var weekdaySelector: WeekdaySelector!
