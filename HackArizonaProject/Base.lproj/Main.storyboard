@@ -69,13 +69,6 @@
                                 <color key="textColor" red="0.41368834252450981" green="0.33326016191052721" blue="0.33709712931912927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of Medication" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vze-qS-cV8">
-                                <rect key="frame" x="16" y="138" width="343" height="30"/>
-                                <color key="backgroundColor" red="0.99837890625000003" green="0.80427675074072802" blue="0.81353673447954966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gba-lS-f6h">
                                 <rect key="frame" x="0.0" y="27" width="57" height="35"/>
                                 <constraints>
@@ -146,7 +139,8 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JCn-5p-YX5">
                                 <rect key="frame" x="16" y="221" width="343" height="110"/>
-                                <color key="backgroundColor" red="1" green="0.80285358428955078" blue="0.81348437070846558" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.83686429262161255" green="0.92236775159835815" blue="0.89789170026779175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.90639221831996331" green="1" blue="0.95432632784592597" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -171,6 +165,13 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of Medication" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vze-qS-cV8">
+                                <rect key="frame" x="16" y="137" width="343" height="30"/>
+                                <color key="backgroundColor" red="0.83686429262161255" green="0.92236775159835815" blue="0.89789170026779175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.84285110235214233" green="0.67757868766784668" blue="0.68434661626815796" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
