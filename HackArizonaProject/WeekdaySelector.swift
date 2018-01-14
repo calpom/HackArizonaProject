@@ -44,7 +44,7 @@ import UIKit
     
     @objc func dayButtonTapped(button: UIButton) {
         
-        // if button is selected, button is not selected. else, it is selected
+        // if button is selected, button is unselected. else, it is selected
         if button.isSelected {
             button.isSelected = false
         } else {
