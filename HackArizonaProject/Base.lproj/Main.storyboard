@@ -31,10 +31,6 @@
                                     <segue destination="k6q-92-x1f" kind="show" animates="NO" id="SsG-31-mOC"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="6jQ-i5-NpF">
-                                <rect key="frame" x="16" y="0.0" width="280" height="149"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9L-1e-dd9">
                                 <rect key="frame" x="164" y="542" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -43,6 +39,10 @@
                                     <segue destination="1ag-13-KNq" kind="show" id="48q-HL-Sa8"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="6jQ-i5-NpF">
+                                <rect key="frame" x="16" y="28" width="280" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.83197185124049611" green="0.92156862745098034" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
