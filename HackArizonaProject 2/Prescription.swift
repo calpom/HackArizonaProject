@@ -15,12 +15,12 @@ class Prescription {
     var name: String
     var notes: String
     var pillCount: Int
-    var dayArray: [String]
+    var dayArray: [Int]
     var time: String
     
     //MARK: Initialization
     
-    init?(name: String, notes: String, pillCount: Int, dayArray: [String], time: String) {
+    init?(name: String, notes: String, pillCount: Int, dayArray: [Int], time: String) {
         
         // The name must not be empty.
         guard !name.isEmpty else {
@@ -35,3 +35,4 @@ class Prescription {
         self.time = time
     }
 }
+

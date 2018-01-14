@@ -9,6 +9,13 @@
 import UIKit
 
 class PrescriptionTableViewCell: UITableViewCell {
+    
+    //MARK: Properties
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var countLabel: UILabel!
+    @IBOutlet weak var WeekdaySelector: WeekdaySelector!
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
