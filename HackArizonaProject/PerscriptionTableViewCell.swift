@@ -9,6 +9,15 @@
 import UIKit
 
 class PerscriptionTableViewCell: UITableViewCell {
+    
+    // the data for each cell
+    private var theName = ""
+    private var arrayOfDays = [String]()
+    private var currentNumberOfPills = 0
+    private var theNotes = ""
+    private var theTime = ""
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
