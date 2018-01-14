@@ -12,16 +12,13 @@ class PrescriptionTableViewController: UITableViewController {
     
     //MARK: Properties
     
-    static var prescriptions = [Prescription]()
+    var prescriptions = [Prescription]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        // Load the sample data.
+        loadSamplePrescriptions()
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,24 +29,33 @@ class PrescriptionTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return prescriptions.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        // Table view cells are reused and should be dequeued using a cell identifier.
+        let cellIdentifier = "PrescriptionTableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? PrescriptionTableViewCell else {
+            fatalError("The dequeued cell is not an instance of MealTableViewCell")
+        }
+        
+        // Fetches the appropriate prescription for the data source layout.
+        let prescription = prescriptions[indexPath.row]
+        
+        cell.nameLabel.text = prescription.name
+        //cell.countLabel.text = prescription.pillCount
+        
+       
+        
         return cell
     }
-    */
+ 
 
     /*
     // Override to support conditional editing of the table view.
@@ -95,5 +101,20 @@ class PrescriptionTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //MARK: Private Methods
+    
+    private func loadSamplePrescriptions() {
+        
+        guard let prescription1 = Prescription(name: "molly", notes: "she's a good gal", pillCount: 69, dayArray: [1, 0, 1, 0, 1, 0, 1], time: "3:21") else {
+            fatalError("Unable to insttantiate prescription1")
+        }
+        
+        
+        prescriptions += [prescription1]
+        
+        print("prescription1 added\n")
+        
+    }
 
 }

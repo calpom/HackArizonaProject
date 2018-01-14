@@ -242,10 +242,10 @@
             </objects>
             <point key="canvasLocation" x="1029.5999999999999" y="135.38230884557723"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Prescription Table View Controller-->
         <scene sceneID="b52-M6-5Jm">
             <objects>
-                <tableViewController id="vwk-GQ-g1O" sceneMemberID="viewController">
+                <tableViewController id="vwk-GQ-g1O" customClass="PrescriptionTableViewController" customModule="HackArizonaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="a4M-nL-hZc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -278,6 +278,12 @@
                                         </stackView>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="WeekdaySelector" destination="piX-OR-szE" id="OgM-j5-SzK"/>
+                                    <outlet property="countLabel" destination="Bz6-tT-EEg" id="BNX-op-aDA"/>
+                                    <outlet property="nameLabel" destination="Cpa-oz-W2P" id="MVH-Jy-SKB"/>
+                                    <outlet property="weekdaySelector" destination="piX-OR-szE" id="O1X-u0-9i0"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
