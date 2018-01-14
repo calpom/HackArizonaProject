@@ -72,12 +72,12 @@
 				69CA0C06200A6A9800337EBA /* notifications.swift */,
 				DC7A0715200AC50C00E941F4 /* WeekdaySelector.swift */,
 				694FFF072009D23000428C28 /* FormViewController.swift */,
+				DC35DAD5200B659A0070151D /* Prescription.swift */,
 				DC35DACD200B4DD70070151D /* PrescriptionTableViewCell.swift */,
 				DC35DAD3200B60420070151D /* PrescriptionTableViewController.swift */,
 				694FFEFA2009821A00428C28 /* Assets.xcassets */,
 				694FFEFC2009821A00428C28 /* LaunchScreen.storyboard */,
 				694FFEFF2009821A00428C28 /* Info.plist */,
-				DC35DAD5200B659A0070151D /* Prescription.swift */,
 			);
 			path = HackArizonaProject;
 			sourceTree = "<group>";

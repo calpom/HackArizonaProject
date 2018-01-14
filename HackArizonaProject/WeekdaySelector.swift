@@ -13,7 +13,7 @@ import UIKit
     
     private var dayButtons = [UIButton]()
     
-    let dayArray = [0, 0, 0, 0, 0, 0, 0]
+    var dayArray = [0, 0, 0, 0, 0, 0, 0]
 
     
     @IBInspectable var dayButtonSize: CGSize = CGSize(width: 43.0, height: 43.0) {

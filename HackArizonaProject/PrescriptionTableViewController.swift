@@ -49,7 +49,9 @@ class PrescriptionTableViewController: UITableViewController {
         let prescription = prescriptions[indexPath.row]
         
         cell.nameLabel.text = prescription.name
-        //cell.countLabel.text = prescription.pillCount
+        cell.countLabel.text = String(prescription.pillCount)
+        cell.WeekdaySelector.dayArray = prescription.dayArray
+        
         
        
         
